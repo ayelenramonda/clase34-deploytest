@@ -1,5 +1,4 @@
 ## Nombre de prueba
-- juan
 - jose
 - clara
 
