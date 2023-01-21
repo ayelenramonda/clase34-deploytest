@@ -1,6 +1,10 @@
+## /info
+Ruta de prueba agregada
+
 ## Nombre de prueba
 - jose
 - clara
+- juan
 
 ### locashost:8080
 

@@ -12,7 +12,7 @@ const users = [
     nombre: "jose",
   }, 
 
-  {username: 'juan',
+  {nombre: 'juan',
  
 }
 ];
@@ -37,6 +37,15 @@ export const loginGet = (req, res) => {
     res.sendFile(path.join(__dirname, "../../views/login.html"));
   }
 };
+//agrego una ruta cualquiera
+
+export const info = (req, res) => {
+  const nombre = req.session?.nombre;
+  if (!nombre) {
+    res.sendFile(path.join(__dirname, "../../views/info.html"));
+  }
+};
+
 
 
 export const logout = (req, res) => {
